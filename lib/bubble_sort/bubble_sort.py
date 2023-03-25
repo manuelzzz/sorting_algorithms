@@ -5,8 +5,10 @@ def bubbleSort(aList):
                 temp = aList[i]
                 aList[i] = aList[i+1]
                 aList[i+1] = temp
-                print(temp)
 
 
 x = [1,4,5,2,3,2,5]
+
+print(x)
 bubbleSort(x)
+print(x)
