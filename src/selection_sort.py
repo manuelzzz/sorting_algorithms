@@ -7,9 +7,3 @@ def selection_sort(aList):
                 minIndex = j
         aList[i], aList[minIndex] = aList[minIndex], aList[i]
     return aList
-
-
-x = [4, 3, 43, 21, 9]
-print(x)
-selection_sort(x)
-print(x)
